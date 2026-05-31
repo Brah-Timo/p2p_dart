@@ -10,6 +10,12 @@
 
 ---
 
+
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/53f7c0af-9ef3-4db9-9f92-e48d09b12d1b" />
+
+
+
+
 ## ✨ Features
 
 | Feature | Detail |
