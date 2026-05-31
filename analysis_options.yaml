@@ -1,0 +1,40 @@
+include: package:lints/recommended.yaml
+
+analyzer:
+  strong-mode:
+    implicit-casts: false
+    implicit-dynamic: false
+  errors:
+    missing_required_param: error
+    missing_return: error
+    invalid_assignment: error
+    dead_code: warning
+  exclude:
+    - "**/*.g.dart"
+    - "**/*.freezed.dart"
+
+linter:
+  rules:
+    # Style
+    - prefer_single_quotes
+    - prefer_const_constructors
+    - prefer_const_declarations
+    - prefer_final_locals
+    - prefer_final_fields
+    - prefer_typing_uninitialized_variables
+    # Documentation
+    - public_member_api_docs
+    - slash_for_doc_comments
+    # Safety
+    - avoid_dynamic_calls
+    - avoid_type_to_string
+    - cancel_subscriptions
+    - close_sinks
+    # Performance
+    - avoid_unnecessary_containers
+    - use_string_buffers
+    - prefer_collection_literals
+    # Dart idioms
+    - use_super_parameters
+    - use_named_constants
+    - sort_pub_dependencies
